@@ -1,0 +1,152 @@
+/* goole font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --pra-font: "Inter", sans-serif;
+  --body-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--body-font) !important;
+  font-weight: 900;
+}
+nav ul li {
+  font-weight: 500;
+}
+
+#input-textinput-text {
+  position: relative !important;
+  background-color: #f1f1f1;
+}
+
+#button-addon2 {
+  position: absolute !important;
+  right: 10px;
+  top: 17px;
+}
+section.container.slider {
+  background: #feeae9 !important;
+  border-radius: 5px;
+}
+.carousel-item h1 {
+  color: #1f1f1f;
+  font-weight: bold;
+  font-size: 47px;
+}
+
+.carousel-item p {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.carousel-item h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 41px;
+  line-height: 61px;
+  color: #ff136f;
+}
+
+a.btn.btn-warning {
+  /* Linear */
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 6px;
+  border: none;
+  width: 168px;
+  height: 52px;
+  line-height: 39px;
+}
+.card.col-lg-4 {
+  width: 359px;
+  height: 120px;
+}
+.bg-1 {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.bg-2 {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.bg-3 {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+/* categories  */
+
+#categories h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#categories img {
+  width: 90px;
+  height: 90px;
+}
+/* shous style  */
+.shoues_top a {
+  color: #ffb428;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#shous .card.shadow.text-center h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#shous .card.shadow.text-center p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#shous button.btn.btn-warning.d-inline {
+  width: 168px;
+  height: 52px;
+  left: 69.5px;
+  top: calc(50% - 52px / 2 + 86px);
+  background: #ff3b89;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+}
+#shous .card.shadow.text-center h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+#shous .card.shadow.text-center h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+#shous .shoues_top.d-flex.justify-content-between.align-items-center h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+/* media quary  */
+
+@media screen and (max-width: 768px) {
+  #shous .card.shadow.text-center h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+  }
+}
