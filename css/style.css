@@ -1,14 +1,13 @@
 /* goole font  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600;700&display=swap");
 
-:root {
+/* :root {
   --pra-font: "Inter", sans-serif;
   --body-font: "Poppins", sans-serif;
-}
+} */
 
 body {
-  font-family: var(--body-font) !important;
-  font-weight: 900;
+  font-family: "Poppins", sans-serif;
 }
 nav ul li {
   font-weight: 500;
@@ -19,7 +18,7 @@ nav ul li {
   background-color: #f1f1f1;
 }
 
-#button-addon2 {
+header #button-addon2 {
   position: absolute !important;
   right: 10px;
   top: 17px;
@@ -137,6 +136,32 @@ a.btn.btn-warning {
   font-weight: 600;
   font-size: 36px;
   line-height: 54px;
+}
+section#footer_top {
+  background: #fff2f1;
+}
+#footer_top button#button-addon2 {
+  background: #ff3b89;
+  width: 120px;
+  color: #fff;
+  border: none;
+}
+
+section#footer_top h1 {
+  font-family: ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+
+section#footer_top p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
 /* media quary  */
